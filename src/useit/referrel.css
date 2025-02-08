@@ -1,0 +1,76 @@
+.refdiv{
+	position: absolute;
+	width: 38%;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,0);
+	padding: 1rem 1.2rem;
+	background-color: rgb(165, 236, 213);
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+border-radius: 0.4rem;
+z-index: 10000;
+}
+.refdiv #ph{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	margin-top: -0.3rem;
+}
+.refdiv .ix{
+		top: -9%;
+	position: absolute;
+	left: 94%;
+	background-color: rgb(169, 165, 165);
+	border-radius: 50%;
+	padding: 0.3rem 0.4rem 0.1rem 0.4rem;
+	cursor: pointer;
+}
+.refdiv .ix:hover{
+	background-color: rgb(149, 146, 146);
+}
+.refmain{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+		margin-bottom: 0.5rem;
+ column-gap: 1.6rem;
+	
+}
+.pdiv{
+	width: 70%;
+	text-align: left;
+	border-radius: 0.4rem;
+	padding: 0.3rem 5rem 0.3rem 0.6rem;
+	background-color: rgb(249, 249, 244);
+
+}
+.pdiv p{
+	font-size: 1.6rem;
+	color: black;
+	font-weight: 555;
+	letter-spacing: 0.1rem;
+}
+#copy{
+	
+	padding: 0.1rem 2rem 0.5rem 1.6rem;
+	color: #fff;
+border: none;
+	background-color: rgb(34, 163, 163);
+	position: relative;
+	border-radius: 0.5rem;
+	overflow: hidden; 
+
+}
+#copy:active{
+	background-color: rgb(201, 231, 220);
+}
+
+
+@keyframes slide {
+	0%{
+		top:-100%;
+		z-index: -20;
+	}
+	100%{
+		top:0%
+	}
+}

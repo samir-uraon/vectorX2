@@ -1,0 +1,222 @@
+.containers{
+	width: 100%;
+	height: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+::-webkit-scrollbar{
+	width: 0.3rem;
+}
+::-webkit-scrollbar-thumb{
+	width: 0.3rem;
+	border: 0.1rem solid transparent;
+	box-sizing: content-box;
+}
+::-webkit-scrollbar-track{
+	width: 0.3rem;
+
+}
+.head{
+	margin-top: 3%;
+	padding: 2rem;
+		width: 100%;
+		height: 100%;
+}
+.head img{
+	width: 12rem;
+	height: 12rem;
+	border-radius: 0.4rem;
+transition: all 0.5s linear;
+border-radius: 0.7rem;
+
+background-size: cover;
+}
+.head img:hover{
+	scale: 1.2;
+}
+.head .second img{
+height:20rem ;
+	width:17rem;
+}
+.head .first,.second,.third{
+overflow: hidden;
+border-radius: 0.7rem;
+width: auto;
+height:auto;
+
+
+}
+.head .first img{
+	width:17rem;
+
+}
+.head .third img{
+	width:22rem;
+}
+.head .image .parts{
+	display: flex;
+	align-items: end;
+	justify-content:center;
+	flex-direction: row;
+	column-gap: 2rem;
+
+}
+.head .image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	row-gap: 1rem;
+}
+.head_text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+#first{
+	position: relative;
+	top: -35rem;
+	left:10rem;
+	width: 5rem;
+	height: 5rem;
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/459/729/small/1403.i030.041.F.m004.c5.atom_logo_on_white.jpg");
+background-size: cover;
+	background-color: aqua;
+	border-radius: 50%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+}
+#second{
+	width: 5rem;
+	height: 5rem;
+	position: relative;
+	top: -10rem;
+	left:-7rem;
+	background-image: url("https://thumbs.dreamstime.com/b/geometry-compass-isolated-icon-vector-illustration-design-79824940.jpg");
+background-size: cover;
+	background-color: aqua;
+	border-radius: 50%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+}
+#third{
+	position: relative;
+	top: -27rem;
+	left:-18rem;
+	width: 4rem;
+	height: 4rem;
+	background-image: url("https://png.pngtree.com/png-vector/20190817/ourmid/pngtree-molecule-is-the-smallest-part-of-matter-that-can-exist-alone-png-image_1693998.jpg");
+background-size: cover;
+	background-color: aqua;
+	border-radius: 50%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+}
+#first1{
+	position: relative;
+	top: -18rem;
+	left:-2rem;
+	width: 3rem;
+	height: 3rem;
+	background-image: url("https://static.vecteezy.com/system/resources/previews/005/620/736/original/physics-magnet-icon-in-flat-design-editable-vector.jpg");
+background-size: cover;
+	background-color: aqua;
+	border-radius: 50%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+}
+#second1{
+	position: relative;
+top: -20rem;
+	left:12rem;
+	width: 5rem;
+	height: 5rem;
+	background-image: url("https://www.kindpng.com/picc/m/437-4375732_chemistry-logo-circle-green-hd-png-download.png");
+background-size: cover;
+
+	border-radius: 50%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+}
+#third1{
+	position: relative;
+	top: -3rem;
+	left:0rem;
+	width: 3rem;
+	height: 3rem;
+	background-image: url("https://media.istockphoto.com/id/1328846821/vector/pendulum.jpg?s=612x612&w=0&k=20&c=P5xd_jxbGny6kVQbwQaKwefldtI9sIFLx04DCMOLkQY=");
+background-size: cover;
+	background-color: aqua;
+	border-radius: 50%;
+	box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 1.9rem 0px;
+}
+.head_type_text{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.first_text{
+	margin-top: 2rem;
+}
+.head_type_text .first_text p{
+	font-size: 4rem;
+	font-weight: 600;
+}
+.type_animation{
+	width: 100%;
+	font-size: 4rem;
+	font-weight: 600;
+	white-space: nowrap;
+	flex-wrap: nowrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.type_animation .animation{
+	color: #16a082;
+}
+.head_type_text .last_text p{
+	font-size: 4rem;
+	font-weight: 600;
+}
+.sometext {
+	width: 100%;
+	height: auto;
+	font-size: 1.8rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.sometext p{
+	width: 50rem;
+padding: 3rem;
+color: gray;
+}
+#explorer{
+	background-color: #16a082;
+	color: #fff;
+	border: none;
+	margin-bottom: 2rem;
+}
+.icon{
+	position: fixed;
+bottom: 6em ;
+right: 5rem;
+background-color: rgb(226, 88, 7);
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-9Q0HbIRaLfEaEfsc-VrhnNMrAxvFddth6Q&s");
+background-size: cover;
+width: 4rem;
+height: 4rem;
+	border-radius: 50%;
+cursor: pointer;
+}
+
+
+
+@media(max-width:400px) {
+	.sometext {
+		font-size: 2rem;
+		padding: 3rem 0rem;
+	}
+	#explorer{
+		padding: 1rem 2rem;
+	}
+}
