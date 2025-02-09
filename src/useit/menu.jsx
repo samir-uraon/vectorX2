@@ -272,7 +272,7 @@ pos.removeChild(thdiv)
 
 function excelbackend(t,c,d){
 	
-	const scriptURL =import.meta.env.VITE_google_sheet
+	let scriptURL=import.meta.env.VITE_google_sheet
 	let form=document.forms["myform"]
 	let test=new FormData(form)
 
@@ -282,8 +282,9 @@ function excelbackend(t,c,d){
 	test.append("Referral Code",c)
 
 	
-  fetch(scriptURL, { method: 'POST', body:test})
-  .then()
+  fetch(scriptURL,{ method: 'POST', body:test})
+  .then(()=>{console.log("ok");
+		})
   .catch(error => console.error('Error!', error.message))
 clean()
 }

@@ -19,7 +19,7 @@ function checkupiid(upiiddata){
 	let ok=false
 let index=upiiddata.length;
 		const element = upiiddata.substring(upiiddata.indexOf("@"),index);
-		if(["@okicici","@ybl","@ibl","@axl","@paytm"].includes(element)){
+		if(["@okicici","@ybl","@ibl","@axl","@paytm","@pthdfc","@ptaxis","@ptsbi"].includes(element)){
 	ok=true
 
 		}else{
