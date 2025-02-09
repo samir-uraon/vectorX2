@@ -151,7 +151,7 @@ knowledge with practical applications, the academy prepares
     <li className="card">
     <div>
         <div className="card-content">
-        <img src={logo} className='card_watermark'/>
+      
 
            <div className="card_head">
             <img src={ceo} alt="" />
@@ -168,10 +168,10 @@ knowledge with practical applications, the academy prepares
       </div>
       <div className="card-link-wrapper">
   <div className="butcontainer">
-  <a><i class="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
-  <a><i class="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
-  <a><i class="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
-  <a><i class="fa-brands fa-square-x-twitter">
+  <a><i className="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
+  <a><i className="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
+  <a><i className="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
+  <a><i className="fa-brands fa-square-x-twitter">
   
   </i>
   </a>
@@ -183,7 +183,7 @@ knowledge with practical applications, the academy prepares
     <li className="card">
     <div>
         <div className="card-content">
-        <img src={logo} className='card_watermark'/>
+      
 
            <div className="card_head">
             <img src={coo} alt="" />
@@ -200,10 +200,10 @@ knowledge with practical applications, the academy prepares
       </div>
       <div className="card-link-wrapper">
   <div className="butcontainer">
-  <a><i class="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
-  <a><i class="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
-  <a><i class="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
-  <a><i class="fa-brands fa-square-x-twitter">
+  <a><i className="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
+  <a><i className="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
+  <a><i className="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
+  <a><i className="fa-brands fa-square-x-twitter">
   
   </i>
   </a>
@@ -215,7 +215,7 @@ knowledge with practical applications, the academy prepares
     <li className="card">
     <div>
         <div className="card-content">
-        <img src={logo} className='card_watermark'/>
+      
 
            <div className="card_head">
             <img src={cdm} alt="" style={{objectPosition: "0.01rem 0.01rem"}}/>
@@ -233,10 +233,10 @@ knowledge with practical applications, the academy prepares
       </div>
       <div className="card-link-wrapper">
   <div className="butcontainer">
-  <a><i class="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
-  <a><i class="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
-  <a><i class="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
-  <a><i class="fa-brands fa-square-x-twitter">
+  <a><i className="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
+  <a><i className="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
+  <a><i className="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
+  <a><i className="fa-brands fa-square-x-twitter">
   
   </i>
   </a>
@@ -248,7 +248,7 @@ knowledge with practical applications, the academy prepares
     <li className="card">
     <div>
         <div className="card-content">
-        <img src={logo} className='card_watermark'/>
+        {/*<img src={logo} className='card_watermark'/>*/}
 
            <div className="card_head">
             <img src={designer} alt="" style={{objectPosition: "0.01rem 0.1rem"}}/>
@@ -266,10 +266,10 @@ knowledge with practical applications, the academy prepares
       </div>
       <div className="card-link-wrapper">
   <div className="butcontainer">
-  <a><i class="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
-  <a><i class="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
-  <a><i class="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
-  <a><i class="fa-brands fa-square-x-twitter">
+  <a><i className="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
+  <a><i className="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
+  <a><i className="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
+  <a><i className="fa-brands fa-square-x-twitter">
   
   </i>
   </a>
@@ -281,7 +281,7 @@ knowledge with practical applications, the academy prepares
     <li className="card">
     <div>
         <div className="card-content">
-        <img src={logo} className='card_watermark'/>
+      
 
            <div className="card_head">
             <img src={contenthead} alt="" style={{objectPosition:"top"}}/>
@@ -298,10 +298,10 @@ knowledge with practical applications, the academy prepares
       </div>
       <div className="card-link-wrapper">
   <div className="butcontainer">
-  <a><i class="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
-  <a><i class="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
-  <a><i class="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
-  <a><i class="fa-brands fa-square-x-twitter">
+  <a><i className="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
+  <a><i className="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
+  <a><i className="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
+  <a><i className="fa-brands fa-square-x-twitter">
   
   </i>
   </a>

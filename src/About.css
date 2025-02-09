@@ -12,14 +12,7 @@
 
 
 
-:root {
-	--red: #ef233c;
-	--darkred: #9ad61b;
-	--platinum: #e5e5e5;
-	--black: #2b2d42;
-	--white: #fff;
-	--thumb: #edf2f4;
-}
+
 
 
 
@@ -42,7 +35,8 @@ h2 {
 	padding: 2rem 5rem;
 	list-style: none;
 	overflow-x: scroll;
-	scroll-snap-type:x mandatory;
+	flex-direction: row;
+	
 }
 .card {
 	display: flex;
@@ -54,17 +48,9 @@ h2 {
 	background: var(--white);
 	border-radius: 1rem;
 	box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, 15%);
-	scroll-snap-align: start;
+
 	transition: all 0.2s;
 	position: relative;
-}
-.card_watermark{
-	top: 0;
-	left: 7%;
-position: absolute;
-	width: 38rem;
-	height: 38rem;
-opacity: 0.15;
 }
 
 
@@ -72,10 +58,7 @@ opacity: 0.15;
 	margin-right: 3rem;
 }
 
-/*.card:hover {
-	color: var(--white);
-	background: #16a082;
-}*/
+
 
 .card_head{
 	display: flex;
@@ -144,6 +127,7 @@ margin-top: 0.6rem;
 	cursor: pointer;
 	font-size: 1.4rem;
 margin-top: -1rem;
+margin-bottom: 2rem;
 	padding: 0.8rem 2rem;
 	border-radius: 0.9rem;
 	box-shadow: 0 .5rem 0.6rem rgba(0, 0, 0, 15%);
@@ -157,11 +141,12 @@ position: relative;
 	background-color: #edf2f4;
 }
 .butcontainer i{
+	margin-top: 0.1rem;
 color: black;
 	font-size: 2.4rem;
 }
 .butcontainer:before{
-	line-height: 4rem;
+	line-height: 4.5rem;
 	content: "Follow Me";
 	position: absolute;
 	top: 0%;
@@ -188,3 +173,12 @@ color: black;
 	background: var(--darkred);
 }
 
+@media(max-width:700px) {
+	.cards{
+    font-size: 34%;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+
+
+}

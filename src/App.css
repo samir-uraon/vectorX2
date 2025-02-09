@@ -10,6 +10,12 @@ body,  #root {
   height: 100vh;
   text-align: center;
   color: #213547;
+  --red: #ef233c;
+	--darkred: #9ad61b;
+	--platinum: #e5e5e5;
+	--black: #2b2d42;
+	--white: #fff;
+	--thumb: #edf2f4;
 }
 #logotext{
   color: black;
@@ -225,6 +231,7 @@ word-spacing:0.001rem;
 }
 
 }
+
 @media screen and (min-height:600px) {
   .menu{
     justify-content:baseline;
