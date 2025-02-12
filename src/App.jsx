@@ -276,7 +276,7 @@ knowledge with practical applications, the academy prepares
            <div className="card_head">
             <img src={designer} alt="" style={{objectPosition: "0.01rem 0.04rem",width:"10.5rem"}}/>
             <div className="card_head_text">
-            <p id='name'></p>
+            <p id='name'>Ankit Minz</p>
              <p id='posi'>Editor and Social Media Influencer, VectorX Academy</p>  
             </div>
             
