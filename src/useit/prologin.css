@@ -208,9 +208,10 @@ width: 100%;
 	align-items: center;
 
 }
+
 .profmain{
 	z-index: 10000;
-	width:25rem;
+	width:26rem;
 	height: 80%;
 	background-color: white;  
 border-radius: 0.7rem;

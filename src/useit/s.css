@@ -1,0 +1,375 @@
+.show3{
+	position: absolute;
+	top: 18%;
+width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.page3{
+	z-index: 10000;
+	width:40rem;
+	margin-bottom: 3rem;
+	background-color: white;  
+border-radius: 0.4rem;
+box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 2.9rem 0px;
+position: relative;
+}
+.page3 .title{
+	padding: 0.2rem 0;
+	background: #16a085;
+	border-radius: 0.5rem 0.5rem 0 0;
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.page3 .thdiv{
+	position: absolute;
+top: 13%;
+width: 25rem;
+height: 3rem;
+border-radius: 0.4rem;
+left: 20%;
+background-color: rgb(68, 211, 68);
+padding: 0.3rem 2rem;
+text-align: left;
+}
+.page3 .thp{
+	margin-left: -1.4rem;
+	color: white;
+	font-size: 1.4rem;
+	text-align: left;
+}
+.page3 .i{
+	position: absolute;
+	top: -1rem;
+	left: 97%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	padding: 0.3rem;
+	background-color: rgb(169, 165, 165);
+	cursor: pointer;
+	box-shadow: 0rem 0.7rem 2.9rem 0px rgba(100, 100, 111, 0.2) ;
+}
+.page3 .i:hover{
+	background-color: rgb(149, 146, 146);
+}
+.page3 h1{
+	padding-top: 1rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100;
+font-size: 1.8rem;
+}
+.page3 .form p{
+	color: rgb(73, 70, 70);
+	margin-left: -1.8rem;
+
+}
+.page3 p{
+	position: absolute;
+left: 14%;
+	font-weight: 500;
+}
+.page3 #p{
+
+	color: green;
+
+}
+.page3 .form{
+	padding: 2rem 2rem 0rem 2rem;
+	padding-top: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	column-gap: 0.3rem;
+}
+.page3 form  {
+text-align: center;
+	
+}
+
+.page3 .reg{
+	padding: 0.3rem 2rem;
+	/*margin-bottom: 1.9rem;*/
+	font-size: 2rem;
+	border: none;
+	background: #16a085;
+	color: rgb(248, 249, 250);
+	pointer-events: none;
+	cursor:no-drop;
+	opacity: 0.5;
+	position: relative;
+}
+.regdiv{
+	height: auto;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 0.4rem;
+	padding: 0.2rem 0;
+		
+}
+.regcontainer{
+	width: auto;
+	height: 100%;
+	background-color: transparent;
+	border-radius: 0.4rem;
+	display: flex;
+	justify-content: center;
+	cursor: no-drop;
+}
+.page3 .input-container{
+	position:relative;
+	margin-bottom:4rem;
+}
+
+.page3 .input-container input{ 
+	border:0;
+	border-bottom:0.15rem solid #555;  
+	background:transparent;
+	padding:0rem 0 0.2rem 0.3rem;
+	font-size:1.3rem;
+	color:#0c0c0c;
+}
+.page3 .input-container input:focus{ 
+	border:none;	
+	outline:none;
+	border-bottom:0.15rem solid #16a085;
+}
+
+.page3 .login-link {
+	text-align: center;
+	margin-top: .5rem;
+	font-size: 1.3rem;
+	margin-top: 1.8rem;
+	margin-bottom: 1rem;
+}
+ .page3  .login-link a {
+	color: #16a085;
+	text-decoration: none;
+	cursor: pointer;
+}
+ .login-link a:hover {
+	text-decoration: underline;
+}
+
+/*input[type="email"]:valid{*/
+	/*border-bottom:0.15rem solid #16a085;	
+}*/
+
+/*input[type="email"]:invalid{
+	border-bottom:0.15rem solid red;	
+}*/
+
+
+
+
+
+
+
+.show4{
+	position: absolute;
+	top: 18%;
+width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.page4{
+	z-index: 10000;
+	width:35rem;
+
+	background-color: white;  
+border-radius: 0.4rem;
+box-shadow: rgba(100, 100, 111, 0.2) 0rem 0.7rem 2.9rem 0px;
+position: relative;
+}
+.page4 .title{
+	padding: 0.2rem 0;
+	background: #16a085;
+	border-radius: 0.5rem 0.5rem 0 0;
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+.page4 .i1{
+	position: absolute;
+	top: -1rem;
+	left: 97%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	padding: 0.3rem;
+	background-color: rgb(169, 165, 165);
+	cursor: pointer;
+	box-shadow: 0rem 0.7rem 2.9rem 0px rgba(100, 100, 111, 0.2) ;
+}
+.page4 .i1:hover{
+	background-color: rgb(154, 148, 148);}
+.page4 h1{
+	padding-top: 1rem;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 100;
+font-size: 1.8rem;
+}
+.page4 .form p{
+	color: rgb(73, 70, 70);
+	margin-left: 0.4rem;
+
+}
+
+.page4 .wrapper .title {
+
+	background: #16a085;
+	border-radius: 0.5rem 0.5rem 0 0;
+	color: #fff;
+	font-size: 2.4rem;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.page4 .wrapper form {
+	padding: 2.5rem 2rem 1rem 2rem;
+	display: flex;
+	align-items: center;
+width: 100%;
+	flex-direction: column;
+}
+.page4 .wrapper form .row {
+	margin-top: 1rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	
+}
+.page4 .wrapper form .row:last-child{
+	margin-top: 2rem;
+}
+.input_div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+flex-direction: column;
+}
+.btn{
+	margin: 1.4rem 0;
+	padding: 0.2rem 2rem 0.4rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: #16a085;*/
+	border: 0.1rem solid #16a085;
+	color: #16a085;
+	transition: all 0.3s linear;
+}
+
+.wrapper form .row input {
+	outline: none;
+	padding:0.2rem 0;
+	padding-left: 2.8rem;
+	border-radius: 0.4rem;
+	border: 0.2rem solid lightgrey;
+	font-size: 1.7rem;
+	transition: all 0.3s ease;
+}
+form .row input:focus {
+	border-color: #16a085;
+}
+form .row input::placeholder {
+	color: #999;
+}
+.wrapper form .row i {
+	position: absolute;
+	color: #fff;
+	font-size: 0.8rem;
+	background: #16a085;
+	border: 1rem solid #16a085;
+	border-radius: .5rem 0 0 .5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#eye{
+	position: absolute;
+left: 86%;
+background: transparent;
+border:none;
+color: black;
+font-size: 1.8rem;
+cursor: pointer;
+}
+.wrapper form .pass {
+	position: relative;
+	margin-top: 0.2rem;
+	margin-left: 15rem;
+}
+.page4 .thdiv{
+	position: absolute;
+top: 18%;
+width: 55%;
+height: 9%;
+border-radius: 0.4rem;
+left: 22%;
+background-color: rgb(244, 6, 10);
+text-align: center;
+border-radius: 1rem;
+
+}
+.page4 .thp{
+	margin-left: 0rem;
+	color: white;
+	font-size: 1.6rem;
+	text-align: center;
+}
+.wrapper form .pass a {
+	color: #16a085;
+	font-size: 1.3rem;
+	text-decoration: none;
+	cursor: pointer;
+}
+.wrapper form .pass a:hover {
+	text-decoration: underline;
+}
+
+.btn:hover {
+	background: #12876f;
+	color: #fff;
+}
+.wrapper form .signup-link {
+	text-align: center;
+	margin-top: .5rem;
+	font-size: 1.3rem;
+}
+.wrapper form .signup-link a {
+	color: #16a085;
+	text-decoration: none;
+	cursor: pointer;
+}
+form .signup-link a:hover {
+	text-decoration: underline;
+}
+
+.page4 input[type="password"]:valid{
+	border:0.2rem solid #16a085;	
+}
+.page4 input[type="text"]:valid{
+	border:0.2rem solid #16a085;	
+}

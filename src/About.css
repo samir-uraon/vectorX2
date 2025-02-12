@@ -175,7 +175,7 @@ color: black;
 
 @media(max-width:700px) {
 	.cards{
-    font-size: 34%;
+  
     flex-direction: column;
     row-gap: 4rem;
 }
