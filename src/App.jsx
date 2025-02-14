@@ -199,7 +199,35 @@ knowledge with practical applications, the academy prepares
       </div>
     </li>
 
+<li className="card">
+    <div>
+        <div className="card-content">
+      
 
+           <div className="card_head">
+            <img src={ed} alt="" style={{objectPosition:"0rem -1rem"}}/>
+            <div className="card_head_text">
+            <p id='name'>Jayendra Birhade</p>
+            <p id='posi'>Executive Director of VectorX Academy</p>  
+            </div>
+            
+           </div>
+      
+          <p id='aboutsometext'>Jay, a student at IIT Delhi, is the Executive Director of VectorX Academy. With a deep passion for physics, he is dedicated to making advanced concepts accessible to students preparing for Olympiads and JEE Advanced. His vision is to transform physics education by emphasizing conceptual clarity and problem-solving techniques. Through VectorX Academy, he aims to inspire young minds to explore the subject beyond textbooks, fostering a culture of curiosity and innovation. Jay's leadership and commitment to excellence drive the academy's mission, ensuring that students receive top-tier guidance in mastering physics.</p>
+        </div>
+      </div>
+      <div className="card-link-wrapper">
+  <div className="butcontainer">
+  <a><i className="fa-brands fa-facebook" style={{color:"rgb(12, 96, 223)"}}></i></a>
+  <a><i className="fa-brands fa-instagram" style={{color:"rgb(191, 12, 96)"}}></i></a>
+  <a><i className="fa-brands fa-linkedin" style={{color:"blue"}}></i></a>
+  <a><i className="fa-brands fa-square-x-twitter">
+  
+  </i>
+  </a>
+  </div>
+      </div>
+    </li>
 
 
     <li className="card">
@@ -274,7 +302,7 @@ knowledge with practical applications, the academy prepares
     
 
            <div className="card_head">
-            <img src={designer} alt="" style={{objectPosition: "0.01rem 0.04rem",width:"10.5rem"}}/>
+            <img src={designer} alt="" style={{objectPosition: "0.01rem 0.04rem",width:"13rem"}}/>
             <div className="card_head_text">
             <p id='name'>Ankit Minz</p>
              <p id='posi'>Editor and Social Media Influencer, VectorX Academy</p>  
