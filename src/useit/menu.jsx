@@ -375,6 +375,7 @@ function excelbackend(t,c,d){
 
  test.delete("p")
 
+
 	test.append("Time",t)
 	test.append("Referral Code",c)
 
@@ -998,10 +999,6 @@ page.innerHTML=`	<div class="title"><span>PRO Registration</span>
 <p></p>
 </div>
 		
-<div class="input-container">
-<input type="text" placeholder='UPI ID' name="UPI ID" autocomplete="off"  required/>
-<p></p>
-</div>
 
 <div class="input-container">
 <input type="text" placeholder='UPI Number' name="UPI Number" autocomplete="off" required/>
