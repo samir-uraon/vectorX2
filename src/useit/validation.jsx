@@ -66,7 +66,7 @@ let bool3=false
 let bool4=false
 let bool5=false
 let bool6=false
-let bool7=false
+
 let bool8=false
 if(document.querySelector(".show")){
  
@@ -303,46 +303,11 @@ bool6=true
 
 
 
-		if(upiid.value==""){
-			upiid.parentElement.children[1].innerHTML=""
-			upiid.parentElement.children[1].style.color="red"
-			bool7=false
-	}
-if(upiid.value!="" && upiid.value.includes(" "))
-{upiid.style.borderBottom="0.15rem solid red";
-				upiid.parentElement.children[1].innerHTML="Invalid UPI ID"
-upiid.parentElement.children[1].style.color="red"
-bool7=false
-}
-if(upiid.value!="" && upiid.value.substring(0,upiid.value.indexOf("@")).length<3){
-	{upiid.style.borderBottom="0.15rem solid red";
-		upiid.parentElement.children[1].innerHTML="Invalid UPI ID"
-upiid.parentElement.children[1].style.color="red"
-bool7=false
-}
-}
-if(["1234567890","1111111111","0000000000","0987654321"].includes(upiid.value.substring(0,upiid.value.indexOf("@")))){
-	upiid.style.borderBottom="0.15rem solid red";
-		upiid.parentElement.children[1].innerHTML="Invalid Number"
-upiid.parentElement.children[1].style.color="red"
-bool7=false
-}
-if(upiid.value!="" && !checkupiid(upiid.value))
-	{upiid.style.borderBottom="0.15rem solid red";
-					upiid.parentElement.children[1].innerHTML="Invalid UPI ID"
-upiid.parentElement.children[1].style.color="red"
-bool7=false
-	}
-if(checkupiid(upiid.value) && upiid.value!="" && upiid.value.substring(0,upiid.value.indexOf("@")).length>=3)
-	{upiid.style.borderBottom="0.15rem solid #16a085";
-					upiid.parentElement.children[1].innerHTML="Valid UPI ID"
-upiid.parentElement.children[1].style.color="green"
-bool7=true
-	}
+		
 
 	
 
-if(bool1 && bool2 && bool3 && bool4 && bool5 && bool6 && bool7 && bool8 ){
+if(bool1 && bool2 && bool3 && bool4 && bool5 && bool6 && bool8 ){
 	bool=true
 emailexistence(email.value,email)
 }
