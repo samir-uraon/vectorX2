@@ -73,7 +73,7 @@ if(document.querySelector(".show")){
 					let name=document.forms["myform"]["Name"]
 					let email=document.forms["myform"]["Email"]
      let upin=document.forms["myform"]["UPI Number"]
-     let upiid=document.forms["myform"]["UPI ID"]
+
 					let password=document.forms["myform"]["p"]
 					let Campus=document.forms["myform"]["Campus"]
 		   let pn=document.forms["myform"]["Phone Number"]
